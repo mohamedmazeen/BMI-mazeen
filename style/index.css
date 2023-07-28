@@ -1,0 +1,13 @@
+/**
+*
+* index.css 
+* @author - Mazeen
+* @date - 28/7/2023 
+**/
+@import "list.css";
+@import "base.css";
+@import "form.css";
+@import "style.css";
+@import "spacing.css";
+@import "layout.css";
+@import "align.css";

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" href="style/index.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="bmi-box">
+                <div class="wrapper">
+                    <form>
+                    <h1 class="title">BMI Calculator</h1>
+                    <p>Weight (kg)</p>
+                    <input class="text-field" id="weight" type="text" placeholder="Enter Weight">
+                    <div id="weight-error" class="error"></div>
+                    <p class="mt-15">Height (cm)</p>
+                    <input class="text-field" id="height" type="text" placeholder="Enter Height">
+                    <div id="height-error" class="error"></div>
+                    <div class="row mt-30">
+                        <div class="col-1 vh-center mr-10">
+                            <button class="primary-btn" type="button" onclick="calculate()">Calculate</button>
+                        </div>
+                        <div class="col-1 vh-center ml-10">
+                            <button class="secondary-btn" type="button" onclick="clearForm()">Clear</button>
+                        </div>
+                    </div>
+                    <div class="value">
+                        <p class="subtitle">Your BMI is:</p>
+                        <p class="display" id="result"></p>
+                        <p class="status" id="status"></p>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
